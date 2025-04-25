@@ -1,3 +1,23 @@
+# Python virtualenv
+venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Token and credentials
 credentials.json
 token.json
 .env
+
+# Output documents
+*.pdf
+*.docx
+*.md
+
+# Jupyter and temp files (optional)
+.ipynb_checkpoints/
+*.log
+.DS_Store
