@@ -3,3 +3,10 @@ ollama
 jinja2
 PyPDF2
 pypandoc
+python-docx
+pdfkit
+weasyprint
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
