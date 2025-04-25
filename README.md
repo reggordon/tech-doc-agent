@@ -2,7 +2,7 @@
 # **AI-Powered Document Builder (Dockerized)**
 
 ## **Overview**
-This app allows you to generate **PDF** and **DOCX** technical documents from **Google Docs** content. The app integrates with **Google Drive** and **Google Docs API** to fetch document content and uses **WeasyPrint** and **python-docx** to convert and save the content in PDF and DOCX formats.
+This app allows you to generate **PDF** and **DOCX** technical documents from **Google Docs** content as a starting point. It will also pull info from the Ollama LLM to fill in gaps if needed. The app integrates with **Google Drive** and **Google Docs API** to fetch document content and uses **WeasyPrint** and **python-docx** to convert and save the content in PDF and DOCX formats.
 
 The application is **Dockerized** for easy setup and consistent execution across different environments.
 
@@ -89,5 +89,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - The **Docker setup** is the focus, reducing the need for manual setup of Python dependencies via `pip`.
 
 ---
-
-Let me know if you'd like to adjust anything further or add additional details!
