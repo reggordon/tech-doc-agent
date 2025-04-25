@@ -1,0 +1,5 @@
+streamlit
+ollama
+jinja2
+PyPDF2
+pypandoc
