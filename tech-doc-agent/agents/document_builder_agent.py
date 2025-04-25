@@ -19,6 +19,7 @@ class DocumentBuilderAgent:
         print("Generated Prompt:", prompt)  # Debugging the prompt
         
         try:
+            print("Sending request to LLaMA model...")
             # Call the LLaMA model via Ollama's client
             response = self.model.chat(model="llama3", messages=[
                 {"role": "user", "content": prompt}
@@ -36,6 +37,7 @@ class DocumentBuilderAgent:
             return None
 
         # After receiving model output, use the template to structure the document
+        print("Rendering document with template...")
         return self.render_template(doc_type, response['message']['content'])
 
     def render_template(self, doc_type, content):
