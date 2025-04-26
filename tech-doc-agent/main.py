@@ -4,7 +4,7 @@ from tools.formatter import convert_markdown_to_pdf, convert_markdown_to_docx
 
 # Replace this with a real Google Doc ID (just the ID, not the full URL)
 doc_id = "1BnSYnvSBX67QMn6Zs3R3bo0_1dQFcS_MPWbMIBbZ3VY"
-topic = "just a happy page"
+topic = "explain guolds theory of evolution"
 doc_type = "PRD"
 
 # Fetch the context from the Google Doc
