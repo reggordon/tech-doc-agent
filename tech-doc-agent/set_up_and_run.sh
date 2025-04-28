@@ -27,4 +27,4 @@ pip list
 # 6. Now run your app
 echo "🚀 Running your app..."
 python ui.py
-brew install pandoc
+
